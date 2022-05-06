@@ -1,0 +1,10 @@
+{
+    "name": "testVM",
+    "switch": "NATSwitch",
+    "startupRAM_GB": 2,
+    "processors": 1,
+    "vmPath": "C:\\vm\\machines",
+    "isoPath": "C:\\vm\\archlinux-2022.04.05-x86_64.iso",
+    "diskSize_GB": 10,
+    "dynamicMemory": true
+}

@@ -1,0 +1,6 @@
+@ECHO OFF
+PowerShell.exe -NoProfile -Command "& {Start-Process PowerShell.exe -ArgumentList '-NoProfile -ExecutionPolicy Bypass -File ""%~dpn0.ps1""' -Verb RunAs}"
+ECHO.
+ECHO ...Please WAIT for the blue PowerShell window to close...
+ECHO ...When complete, press any key to continue...
+PAUSE > nul
